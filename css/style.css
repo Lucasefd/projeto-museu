@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+
+
+body {
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header > a {
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+
+nav ul {
+    position: absolute;
+    top: 5px;
+    left: 560px;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    padding: 12px;
+}
+
+nav a {
+    list-style: none;
+    color: #af670a; ;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none
+}
+
+nav a:hover {
+    color: #227115;
+    border-bottom: 1px solid gray;
+}
+
+main {
+    display: flex;
+    position: relative;
+    top: 80px;
+}
+
+div#conteudo {
+    margin: auto;
+}
+
+article {
+    width: 710px;
+    float: left;
+    margin-right: 20px;
+    margin-left: -15px;
+}
+
+
+section#video {
+    width: 300px;
+    float: left;
+    margin: 0px 20px;
+    
+}
+
+#vmuseu {
+    width: 310px;
+    height: 170px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+
+section#mapa {
+    width: 300px;
+    float: right;
+    margin: 0px 20px;
+}
+
+section#exposicao {
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+section#historia {
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+
+h4 {
+    color: #227115;
+}
+
+article > div#sections a {
+    text-decoration: none;
+    color: #af670a;
+}
+
+article > div#sections a:hover {
+    color: #227115;
+}
+
+aside {
+    width: 350px;
+    float: right;
+}
+
+#visita {
+    background: #cdc8b1;
+    padding-bottom: 5px;
+}
+
+#visita h4 {
+    margin: 20px;
+    padding-top: 20px;
+    color: #af670a;
+}
+
+#visita form {
+    margin: 20px;
+}
+
+#idata {
+    margin: 10px;
+}
+
+input#submit {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    background: #9b9271;
+    color: white;
+    border: none;
+}
+
+section#galeria {
+    background: #ebe7dd;
+    padding: 0 27px 0 27px;
+    height: 350px;
+}
+
+section#galeria h4 {
+    color: #af670a;
+}
+
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#galeria a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    margin: 100px auto;
+    width: 50%;
+    background: url(../imagens/fundo-rodape.png);
+    height: 1px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #af670a;
+}
+
+footer > div {
+    padding-top: 20px;
+}
